@@ -130,8 +130,8 @@
 
 .circlesBG img.bottomBG {
   position: absolute;
-  bottom: -70%;
-  right: -25%;
+  bottom: -85%;
+  right: -15%;
   background-color: transparent;
   transform: rotate(45deg);
   transform: scale(100%);
