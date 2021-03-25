@@ -62,12 +62,14 @@
   margin: auto;
 
   border-top: 1px solid lightgrey;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .block {
   padding: 5px;
-  margin: 25px;
+  margin: 15px;
+  width: 59px;
+  height: 40px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -77,7 +79,7 @@
   padding: 0px;
   border: 5px solid white;
   border-radius: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-49%);
 }
 
 .profileName,
@@ -94,19 +96,25 @@
   color: hsl(0, 0%, 59%);
   background-color: white;
 }
-.country {
-  font-size: 14px;
-}
+
 .name {
+  padding-top: 5px;
   font-size: 10px;
 }
 .mainInfo {
-  transform: translateY(-100%);
+  transform: translateY(-80%);
   background-color: white;
+}
+.country {
+  font-size: 14px;
+  position: relative;
+
+  background-color: transparent;
 }
 
 .nameAge {
   background-color: white;
+  padding-bottom: 10px;
 }
 .circlesBG img {
   overflow: hidden;
@@ -122,9 +130,9 @@
 
 .circlesBG img.bottomBG {
   position: absolute;
-  bottom: -80%;
-  right: -20%;
+  bottom: -70%;
+  right: -25%;
   background-color: transparent;
-  transform: rotate(60deg);
+  transform: rotate(45deg);
   transform: scale(100%);
 }
